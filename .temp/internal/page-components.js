@@ -3,7 +3,7 @@
  */
 export default {
   "v-68bb1c23": () => import("D:\\Damon\\press\\docs\\README.md"),
-  "v-822c5c74": () => import("D:\\Damon\\press\\docs\\weather\\README.md"),
-  "v-aae3592a": () => import("D:\\Damon\\press\\docs\\weather\\first.md"),
-  "v-13d2344e": () => import("D:\\Damon\\press\\docs\\weather\\second.md") 
+  "v-23dd6866": () => import("D:\\Damon\\press\\docs\\others\\README.md"),
+  "v-7faa2d29": () => import("D:\\Damon\\press\\docs\\others\\first.md"),
+  "v-29571f05": () => import("D:\\Damon\\press\\docs\\others\\second.md") 
 }

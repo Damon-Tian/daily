@@ -1,6 +1,6 @@
 module.exports = {
-    base: '/dist/',
-    title: 'personal practice',
+    base: '/press/',
+    title: '田一一',
     description: 'no description',
     themeConfig: {
         sidebar: 'auto',
@@ -10,12 +10,13 @@ module.exports = {
         // },
         nav: [
             {
-                text: "想知道天气吗",
-                link: "/weather/",
+                text: "其他",
+                link: "/others/",
             },
             {
-                text: "工具",
-                items: [{ text: "主页", link: "/" }],
+                text: "每日记录",
+                link: "/"
+                // items: [{ text: "主页", link: "/" }],
             },
         ],
     }

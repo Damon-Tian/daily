@@ -21,31 +21,31 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-822c5c74",
-    path: "/weather/",
+    name: "v-23dd6866",
+    path: "/others/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-822c5c74").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-23dd6866").then(next)
     },
   },
   {
-    path: "/weather/index.html",
-    redirect: "/weather/"
+    path: "/others/index.html",
+    redirect: "/others/"
   },
   {
-    name: "v-aae3592a",
-    path: "/weather/first.html",
+    name: "v-7faa2d29",
+    path: "/others/first.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-aae3592a").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-7faa2d29").then(next)
     },
   },
   {
-    name: "v-13d2344e",
-    path: "/weather/second.html",
+    name: "v-29571f05",
+    path: "/others/second.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-13d2344e").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-29571f05").then(next)
     },
   },
   {

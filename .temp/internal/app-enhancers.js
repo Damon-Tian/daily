@@ -1,6 +1,6 @@
 import m0 from "D:\\Damon\\press\\.temp\\app-enhancers\\0.js"
 import m1 from "D:\\Damon\\press\\.temp\\app-enhancers\\data-block.js"
-import m2 from "D:\\Damon\\press\\.temp\\app-enhancers\\global-components-5.js"
+import m2 from "D:\\Damon\\press\\.temp\\app-enhancers\\global-components-29.js"
 import m3 from "D:\\Damon\\press\\.temp\\app-enhancers\\1.js"
 
 export default [
