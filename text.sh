@@ -16,4 +16,4 @@ git commit -m 'deploy'
 
 
 # 如果发布到 https://USERNAME.github.io/<REPO>  REPO=github上的项目
-git push origin gh-pages
+git push origin
