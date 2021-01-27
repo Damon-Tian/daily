@@ -12,7 +12,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/",
       "relativePath": "README.md",
-      "key": "v-68bb1c23",
+      "key": "v-25995407",
       "path": "/",
       "headers": [
         {
@@ -24,46 +24,6 @@ export const siteData = {
           "level": 3,
           "title": "2021-1-26",
           "slug": "_2021-1-26"
-        },
-        {
-          "level": 3,
-          "title": "2021-1-27",
-          "slug": "_2021-1-27"
-        },
-        {
-          "level": 3,
-          "title": "2021-1-28",
-          "slug": "_2021-1-28"
-        },
-        {
-          "level": 3,
-          "title": "2021-1-29",
-          "slug": "_2021-1-29"
-        },
-        {
-          "level": 2,
-          "title": "二月份",
-          "slug": "二月份"
-        },
-        {
-          "level": 3,
-          "title": "2021-2-26",
-          "slug": "_2021-2-26"
-        },
-        {
-          "level": 3,
-          "title": "2021-2-27",
-          "slug": "_2021-2-27"
-        },
-        {
-          "level": 3,
-          "title": "2021-2-28",
-          "slug": "_2021-2-28"
-        },
-        {
-          "level": 3,
-          "title": "2021-2-29",
-          "slug": "_2021-2-29"
         }
       ]
     },
@@ -72,53 +32,13 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/others/",
       "relativePath": "others/README.md",
-      "key": "v-23dd6866",
+      "key": "v-2f7a014a",
       "path": "/others/",
       "headers": [
         {
           "level": 2,
           "title": "噩梦",
           "slug": "噩梦"
-        }
-      ]
-    },
-    {
-      "title": "first`",
-      "frontmatter": {},
-      "regularPath": "/others/first.html",
-      "relativePath": "others/first.md",
-      "key": "v-7faa2d29",
-      "path": "/others/first.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "first`",
-          "slug": "first"
-        },
-        {
-          "level": 2,
-          "title": "2",
-          "slug": "_2"
-        },
-        {
-          "level": 3,
-          "title": "4",
-          "slug": "_4"
-        }
-      ]
-    },
-    {
-      "title": "second",
-      "frontmatter": {},
-      "regularPath": "/others/second.html",
-      "relativePath": "others/second.md",
-      "key": "v-29571f05",
-      "path": "/others/second.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "second",
-          "slug": "second"
         }
       ]
     }
