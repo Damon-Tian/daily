@@ -4,16 +4,24 @@
 
 import { injectComponentOption, ensureAsyncComponentsLoaded } from '@app/util'
 import rootMixins from '@internal/root-mixins'
-import GlobalLayout from "d:\\2021Persist\\record\\code\\press\\node_modules\\_@vuepress_core@1.8.0@@vuepress\\core\\lib\\client\\components\\GlobalLayout.vue"
+import GlobalLayout from "D:\\Damon\\press\\code\\press\\node_modules\\@vuepress\\core\\lib\\client\\components\\GlobalLayout.vue"
 
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-25995407",
+    name: "v-24e975f4",
+    path: "/January.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-24e975f4").then(next)
+    },
+  },
+  {
+    name: "v-83c82b72",
     path: "/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-25995407").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-83c82b72").then(next)
     },
   },
   {
@@ -21,16 +29,24 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-2f7a014a",
+    name: "v-78ceb0ec",
     path: "/others/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-2f7a014a").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-78ceb0ec").then(next)
     },
   },
   {
     path: "/others/index.html",
     redirect: "/others/"
+  },
+  {
+    name: "v-a0181932",
+    path: "/others/nightmare.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-a0181932").then(next)
+    },
   },
   {
     path: '*',

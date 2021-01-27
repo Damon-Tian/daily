@@ -4,47 +4,60 @@
 export const siteData = {
   "title": "田一一",
   "description": "no description",
-  "base": "/press/",
+  "base": "/daily/",
   "headTags": [],
   "pages": [
     {
-      "title": "每日记录",
+      "title": "一月份",
       "frontmatter": {},
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-25995407",
-      "path": "/",
+      "regularPath": "/January.html",
+      "relativePath": "January.md",
+      "key": "v-24e975f4",
+      "path": "/January.html",
       "headers": [
         {
           "level": 2,
-          "title": "一月份",
-          "slug": "一月份"
-        },
-        {
-          "level": 3,
           "title": "2021-1-26",
           "slug": "_2021-1-26"
         }
       ]
     },
     {
-      "title": "其他",
+      "title": "Daily Record",
+      "frontmatter": {},
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-83c82b72",
+      "path": "/"
+    },
+    {
+      "title": "Something Else",
       "frontmatter": {},
       "regularPath": "/others/",
       "relativePath": "others/README.md",
-      "key": "v-2f7a014a",
-      "path": "/others/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "噩梦",
-          "slug": "噩梦"
-        }
-      ]
+      "key": "v-78ceb0ec",
+      "path": "/others/"
+    },
+    {
+      "title": "噩梦",
+      "frontmatter": {},
+      "regularPath": "/others/nightmare.html",
+      "relativePath": "others/nightmare.md",
+      "key": "v-a0181932",
+      "path": "/others/nightmare.html"
     }
   ],
   "themeConfig": {
-    "sidebar": "auto",
+    "sidebar": {
+      "/others/": [
+        "",
+        "nightmare"
+      ],
+      "/": [
+        "",
+        "January"
+      ]
+    },
     "nav": [
       {
         "text": "其他",

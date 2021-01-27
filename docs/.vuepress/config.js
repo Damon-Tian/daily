@@ -1,13 +1,17 @@
 module.exports = {
-    base: '/press/',
+    base: '/daily/',
     title: '田一一',
     description: 'no description',
     themeConfig: {
-        sidebar: 'auto',
-        // {
-        // '/weather/': ['', 'first', 'second'],
-        // '/': [''],
-        // },
+        // sidebar: 'auto',
+        sidebar:
+        {
+            '/others/': [
+                '',
+                'nightmare'
+            ],
+            '/': ['', 'January'],
+        },
         nav: [
             {
                 text: "其他",
