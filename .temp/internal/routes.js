@@ -4,24 +4,32 @@
 
 import { injectComponentOption, ensureAsyncComponentsLoaded } from '@app/util'
 import rootMixins from '@internal/root-mixins'
-import GlobalLayout from "D:\\Damon\\press\\code\\press\\node_modules\\@vuepress\\core\\lib\\client\\components\\GlobalLayout.vue"
+import GlobalLayout from "d:\\2021Persist\\record\\code\\press\\node_modules\\_@vuepress_core@1.8.0@@vuepress\\core\\lib\\client\\components\\GlobalLayout.vue"
 
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-24e975f4",
-    path: "/January.html",
+    name: "v-76efac48",
+    path: "/February.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-24e975f4").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-76efac48").then(next)
     },
   },
   {
-    name: "v-83c82b72",
+    name: "v-22d43798",
+    path: "/January.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-22d43798").then(next)
+    },
+  },
+  {
+    name: "v-25995407",
     path: "/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-83c82b72").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-25995407").then(next)
     },
   },
   {
@@ -29,11 +37,11 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-78ceb0ec",
+    name: "v-2f7a014a",
     path: "/others/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-78ceb0ec").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-2f7a014a").then(next)
     },
   },
   {
@@ -41,11 +49,11 @@ export const routes = [
     redirect: "/others/"
   },
   {
-    name: "v-a0181932",
+    name: "v-f18d5cb2",
     path: "/others/nightmare.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-a0181932").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-f18d5cb2").then(next)
     },
   },
   {
